@@ -1,14 +1,22 @@
+@font-face {
+    font-family: 'Inca';
+    src: url('../fonts/inca.ttf') format('truetype');
+}
+
 /* Estilos para la cabecera */
 header {
-    background-image: url("../images/banner.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("../images/banner.png");
+    background-size:contain;
+    background-position:center;
     color: white;
-    padding: 20px;
+    padding: 0px;
 }
 
 header h1 {
     margin: 0;
+    font-family: 'Inca', sans-serif;
+    text-shadow: 0px 0px 20px black, 0 0 20px black, 0 0 10px black;
+    font-size: 50px;
 }
 
 /* Estilos para la barra de navegación */
@@ -49,7 +57,7 @@ nav ul li a:hover {
 
 /* Estilos para la sección de nosotros */
 #nosotros {
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/banner2.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -59,14 +67,16 @@ nav ul li a:hover {
 
 #nosotros h2 {
     margin-top: 0;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 #nosotros p {
     font-size: 18px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 .nosotros{
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 /* Estilos para la sección de habitaciones */
